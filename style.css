@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+  font-size: 16px;
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  user-select: none;
+  background-color: #262626;
+  overflow: hidden;
+}
+
+p, div, blockquote {
+  margin: 0;
+  padding: 0;
+  color: #999;
+}
+
+.container {
+  background-color: #262626;
+}
+
+.list {
+  position: absolute;
+}
+
+blockquote {
+  width: 400px;
+  background-color: #313131;
+  color: #f8f8f8;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 2px;
+}
+
+blockquote .phrase {
+  margin-bottom: 16px;
+}
+
+blockquote .sources {
+  text-align: right;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    margin: 0 auto;
+    width: 92%;
+  }
+  
+  blockquote {
+    width: 90%;
+    padding: 12px;
+  }  
+}
